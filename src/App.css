@@ -1,0 +1,36 @@
+.app {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .app-header {
+    font-size: 32px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    background-color: yellow;
+  }
+  
+  .options {
+    margin-bottom: 20px;
+  }
+  
+  .option {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .option.active {
+    background-color: #04516f;
+  }
+  
+  .component-container {
+    margin-top: 20px;
+  }
+  
