@@ -5,7 +5,7 @@ import Sorting from "./Algorithms/Sorting"
 import './App.css';
 
 const App = () => {
-  const [activeOption, setActiveOption] = useState('pathfinder');
+  const [activeOption, setActiveOption] = useState('searching');
 
   const renderComponent = () => {
     switch (activeOption) {
